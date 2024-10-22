@@ -3,36 +3,84 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Surat Cinta untuk Cirilla</title>
+    <title>Shelf Aware</title>
     <link rel="stylesheet" href="style.css" />
-    <script defer src="script.js"></script>
   </head>
   <body>
-    <div class="container">
-      <div class="envelope" id="envelope">
-        <div class="letter">
-          <h1>Untuk Kucingku</h1>
-          <p>
-            Kamu adalah keajaiban kecil yang hadir dalam hidupku. Dari setiap gerakanmu yang lucu, sampai 
-            tatapan matamu yang penuh cinta, kamu selalu berhasil membuat hari-hariku lebih ceria.
-          </p>
-          <p>
-            Aku suka ketika kamu meringkuk di pangkuanku, atau ketika kamu mengeow meminta perhatian. 
-            Kehadiranmu seperti selimut hangat yang membuat hatiku tenang. Tiap dengkuranmu membawa kedamaian, 
-            dan tiap langkah kaki kecilmu membuat rumah ini lebih hidup.
-          </p>
-          <p>
-            Kamu bukan hanya kucing, kamu adalah sahabat terbaik yang aku sayangi sepenuh hati. Aku akan selalu 
-            menjaga dan menyayangimu.
-          </p>
-          <p>
-            With all my heart,<br />
-            Qamam
-          </p>
+    <div
+      class="box"
+      style="
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+      "
+    >
+      <div class="box navbar">
+        <div id="logo">
+          <img
+            src="assets\book-literature-svgrepo-com.svg"
+            alt="logo"
+            height="40px"
+          />SHELF-INDULGENCE
+        </div>
+        <div id="menu">
+          <a href="">Books</a>
+          <a href="">Authors</a>
+          <a href="">What to Read?</a>
+          <a href="">Gift Ideas</a>
+          <a href="">About Us</a>
+        </div>
+        <div style="display: flex; gap: 16px">
+          <div style="display: flex; align-items: center">
+            <a href=""
+              ><img
+                src="assets\search-svgrepo-com.svg"
+                alt="search"
+                width="24px"
+            /></a>
+            <a href=""
+              ><img
+                src="assets\bookmark-svgrepo-com.svg"
+                alt="bookmark"
+                width="24px"
+            /></a>
+            <a href=""
+              ><img src="assets\cart-svgrepo-com.svg" alt="cart" width="24px"
+            /></a>
+          </div>
+          <a class="cta" href="">LOGIN</a>
         </div>
       </div>
+      <div class="banner">
+        <a class="" href="">ALL BOOKS</a>
+        <a class="" href="">MYSTERY</a>
+        <a class="" href="">SHELF-HELP</a>
+        <a class="" href="">FANTASY</a>
+        <a class="" href="">ROMANCE</a>
+      </div>
+      <div
+        class="box"
+        style="
+          display: flex;
+          justify-content: center;
+          gap: 16px;
+          flex-wrap: wrap;
+          padding-right: 20%;
+          padding-left: 20%;
+        "
+      >
+        <div class="box book"></div>
+        <div class="box book"></div>
+        <div class="box book"></div>
+        <div class="box book"></div>
+        <div class="box book"></div>
+        <div class="box book"></div>
+        <div class="box book"></div>
+        <div class="box book"></div>
+        <div class="box book"></div>
+      </div>
+      <div class="box"></div>
     </div>
-
-    <audio id="bg-music" src="assets\Cat Vibing To Ievan Polkka (Official Video HD) Cat Vibing To Music  Cat Vibing Meme.mp3" autoplay loop>
   </body>
 </html>
