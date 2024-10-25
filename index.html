@@ -3,26 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shelf Aware</title>
+    <title>SHELF AWARE</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets\book-literature-svgrepo-com.ico" />
   </head>
   <body>
     <div
-      class="box"
       style="
         display: flex;
         flex-direction: column;
         gap: 16px;
         align-items: center;
+        padding: 24px 0 0;
       "
     >
-      <div class="box navbar">
+      <div class="navbar">
         <div id="logo">
           <img
             src="assets\book-literature-svgrepo-com.svg"
             alt="logo"
-            height="40px"
-          />SHELF-INDULGENCE
+            height="32px"
+          />SHELF AWARE
         </div>
         <div id="menu">
           <a href="">Books</a>
@@ -31,8 +32,8 @@
           <a href="">Gift Ideas</a>
           <a href="">About Us</a>
         </div>
-        <div style="display: flex; gap: 16px">
-          <div style="display: flex; align-items: center">
+        <div class="ctaContainer">
+          <div class="ctaIcon">
             <a href=""
               ><img
                 src="assets\search-svgrepo-com.svg"
@@ -55,32 +56,245 @@
       <div class="banner">
         <a class="" href="">ALL BOOKS</a>
         <a class="" href="">MYSTERY</a>
-        <a class="" href="">SHELF-HELP</a>
+        <a class="active" href="">SHELF-HELP</a>
         <a class="" href="">FANTASY</a>
         <a class="" href="">ROMANCE</a>
       </div>
-      <div
-        class="box"
-        style="
-          display: flex;
-          justify-content: center;
-          gap: 16px;
-          flex-wrap: wrap;
-          padding-right: 20%;
-          padding-left: 20%;
-        "
-      >
-        <div class="box book"></div>
-        <div class="box book"></div>
-        <div class="box book"></div>
-        <div class="box book"></div>
-        <div class="box book"></div>
-        <div class="box book"></div>
-        <div class="box book"></div>
-        <div class="box book"></div>
-        <div class="box book"></div>
+      <div class="bookContainer">
+        <div class="bookCard">
+          <img src="assets\books\tellthewolvesimhome 1.jpg" alt="book" />
+          <div class="bookInfo">
+            <p class="author">Adam Smith</p>
+            <p class="title">The Wealth of Nations</p>
+          </div>
+          <div class="bookRating">
+            <div>
+              <p>14</p>
+              <img src="assets\Union.svg" alt="comment" />
+            </div>
+            <div>
+              <p>4.6</p>
+              <img src="assets\Star 5.svg" alt="ratings" />
+              <p>(165)</p>
+            </div>
+          </div>
+          <div class="bookPrice">
+            <p>$15.50</p>
+            <p>$10.50</p>
+          </div>
+        </div>
+        <div class="bookCard">
+          <img src="assets\books\tellthewolvesimhome 1-1.jpg" alt="book" />
+          <div class="bookInfo">
+            <p class="author">Mikhail Bulgakov</p>
+            <p class="title">Mater Margarita</p>
+          </div>
+          <div class="bookRating">
+            <div>
+              <p>14</p>
+              <img src="assets\Union.svg" alt="comment" />
+            </div>
+            <div>
+              <p>4.6</p>
+              <img src="assets\Star 5.svg" alt="ratings" />
+              <p>(165)</p>
+            </div>
+          </div>
+          <div class="bookPrice">
+            <p>$15.50</p>
+            <p>$15.50</p>
+          </div>
+        </div>
+        <div class="bookCard">
+          <img src="assets\books\tellthewolvesimhome 1-2.jpg" alt="book" />
+          <div class="bookInfo">
+            <p class="author">Adam Smith</p>
+            <p class="title">The Wealth of Nations</p>
+          </div>
+          <div class="bookRating">
+            <div>
+              <p>14</p>
+              <img src="assets\Union.svg" alt="comment" />
+            </div>
+            <div>
+              <p>4.6</p>
+              <img src="assets\Star 5.svg" alt="ratings" />
+              <p>(165)</p>
+            </div>
+          </div>
+          <div class="bookPrice">
+            <p class="hidden">$15.50</p>
+            <p>$10.50</p>
+          </div>
+        </div>
+        <div class="bookCard">
+          <img src="assets\books\tellthewolvesimhome 1-3.jpg" alt="book" />
+          <div class="bookInfo">
+            <p class="author">Patrick Ness</p>
+            <p class="title">More Than This</p>
+          </div>
+          <div class="bookRating">
+            <div>
+              <p>14</p>
+              <img src="assets\Union.svg" alt="comment" />
+            </div>
+            <div>
+              <p>4.6</p>
+              <img src="assets\Star 5.svg" alt="ratings" />
+              <p>(165)</p>
+            </div>
+          </div>
+          <div class="bookPrice">
+            <p class="hidden">$15.50</p>
+            <p>$10.50</p>
+          </div>
+        </div>
+        <div class="bookCard">
+          <img src="assets\books\tellthewolvesimhome 1-4.jpg" alt="book" />
+          <div class="bookInfo">
+            <p class="author">Erik Spiekermann</p>
+            <p class="title">Hello I am Erik</p>
+          </div>
+          <div class="bookRating">
+            <div>
+              <p>14</p>
+              <img src="assets\Union.svg" alt="comment" />
+            </div>
+            <div>
+              <p>4.6</p>
+              <img src="assets\Star 5.svg" alt="ratings" />
+              <p>(165)</p>
+            </div>
+          </div>
+          <div class="bookPrice">
+            <p class="hidden">$15.50</p>
+            <p>$10.50</p>
+          </div>
+        </div>
+        <div class="bookCard">
+          <img src="assets\books\tellthewolvesimhome 1-5.jpg" alt="book" />
+          <div class="bookInfo">
+            <p class="author">Mario Puzo</p>
+            <p class="title">The Godfather</p>
+          </div>
+          <div class="bookRating">
+            <div>
+              <p>14</p>
+              <img src="assets\Union.svg" alt="comment" />
+            </div>
+            <div>
+              <p>4.6</p>
+              <img src="assets\Star 5.svg" alt="ratings" />
+              <p>(165)</p>
+            </div>
+          </div>
+          <div class="bookPrice">
+            <p>$15.50</p>
+            <p>$10.50</p>
+          </div>
+        </div>
+        <div class="bookCard">
+          <img src="assets\books\tellthewolvesimhome 1-6.jpg" alt="book" />
+          <div class="bookInfo">
+            <p class="author">Don Delillo</p>
+            <p class="title">The Names</p>
+          </div>
+          <div class="bookRating">
+            <div>
+              <p>14</p>
+              <img src="assets\Union.svg" alt="comment" />
+            </div>
+            <div>
+              <p>4.6</p>
+              <img src="assets\Star 5.svg" alt="ratings" />
+              <p>(165)</p>
+            </div>
+          </div>
+          <div class="bookPrice">
+            <p class="hidden">$15.50</p>
+            <p>$10.50</p>
+          </div>
+        </div>
+        <div class="bookCard">
+          <img src="assets\books\tellthewolvesimhome 1-7.jpg" alt="book" />
+          <div class="bookInfo">
+            <p class="author">Daniel Gargallo</p>
+            <p class="title">She Beyond Sun</p>
+          </div>
+          <div class="bookRating">
+            <div>
+              <p>14</p>
+              <img src="assets\Union.svg" alt="comment" />
+            </div>
+            <div>
+              <p>4.6</p>
+              <img src="assets\Star 5.svg" alt="ratings" />
+              <p>(165)</p>
+            </div>
+          </div>
+          <div class="bookPrice">
+            <p>$15.50</p>
+            <p>$10.50</p>
+          </div>
+        </div>
+        <div class="bookCard">
+          <img src="assets\books\tellthewolvesimhome 1-8.jpg" alt="book" />
+          <div class="bookInfo">
+            <p class="author">Alan Trotter</p>
+            <p class="title">Muscle</p>
+          </div>
+          <div class="bookRating">
+            <div>
+              <p>14</p>
+              <img src="assets\Union.svg" alt="comment" />
+            </div>
+            <div>
+              <p>4.6</p>
+              <img src="assets\Star 5.svg" alt="ratings" />
+              <p>(165)</p>
+            </div>
+          </div>
+          <div class="bookPrice">
+            <p class="hidden">$15.50</p>
+            <p>$22.50</p>
+          </div>
+        </div>
       </div>
-      <div class="box"></div>
+      <div id="footerContainer">
+        <div id="footer">
+          <div id="logo">
+            <img
+              src="assets\book-literature-svgrepo-com.svg"
+              alt="logo"
+              height="40px"
+            />SHELF AWARE
+          </div>
+          <div id="social">
+            <a href=""
+              ><img
+                src="assets\instagram-svgrepo-com.svg"
+                alt="fb"
+                width="24px"
+            /></a>
+            <a href=""
+              ><img src="assets\facebook-svgrepo-com.svg" alt="fb" width="24px"
+            /></a>
+            <a href=""
+              ><img src="assets\twitter-svgrepo-com.svg" alt="fb" width="24px"
+            /></a>
+          </div>
+        </div>
+        <div id="copyright">
+          <div>
+            <a href="">Terms and conditions</a>
+            <a href="">Privacy Policy</a>
+          </div>
+          <div>
+            <a href="">+0123456789</a>
+            <a href="">contact@shelfindulgence.com</a>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
