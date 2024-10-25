@@ -5,6 +5,11 @@
 }
 
 @media screen and (max-width: 938px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
   .navbar {
     flex-direction: column;
   }
